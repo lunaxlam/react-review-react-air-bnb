@@ -27,7 +27,7 @@ body {
 }
 
 .App {
-  width: 665px;
+  width: 550px;
   background-color: white;
   margin: auto;
 }
@@ -72,7 +72,6 @@ nav {
 }
 
 .card {
-  width: 100%;
   font-size: 12px;
 }
 
@@ -94,8 +93,4 @@ nav {
 
 .card--rating_location_count {
   margin-right: 5px;
-}
-
-.bottom {
-  border-radius: 10px;
 }
