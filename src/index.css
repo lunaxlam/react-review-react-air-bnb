@@ -4,16 +4,31 @@ body {
   margin: 0;
   padding: 60px;
   background-color: #E5E5E5;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.flex {
+  display: inline-block;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.bullet-space {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
 .App {
-  background-color: white;
   width: 550px;
+  background-color: white;
   margin: auto;
 }
 
@@ -39,21 +54,44 @@ nav {
   margin: 30px 41px;
 }
 
-.hero--title, .hero--details {
-  font-family: 'Poppins';
-}
-
 .hero--title {
+  margin-bottom: 16px;
   font-weight: 600;
   font-size: 36px;
   line-height: 39.6px;
 }
 
 .hero--details {
+  margin-top: 0;
   font-weight: 300;
   font-size: 16px;
   line-height: 17.6px;
   color: #222222;
   width: 320px;
   height: 56px;
+}
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+  height: 235px;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star_img {
+  height: 14px;
+  margin-right: 5px;
+}
+
+.card--rating_location_count {
+  margin-right: 5px;
 }
