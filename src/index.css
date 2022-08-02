@@ -10,7 +10,7 @@ body {
 }
 
 .flex {
-  display: inline-block;
+  display: flex;
 }
 
 .gray {
@@ -27,7 +27,7 @@ body {
 }
 
 .App {
-  width: 550px;
+  width: 665px;
   background-color: white;
   margin: auto;
 }
@@ -72,7 +72,7 @@ nav {
 }
 
 .card {
-  width: 175px;
+  width: 100%;
   font-size: 12px;
 }
 
@@ -94,4 +94,8 @@ nav {
 
 .card--rating_location_count {
   margin-right: 5px;
+}
+
+.bottom {
+  border-radius: 10px;
 }

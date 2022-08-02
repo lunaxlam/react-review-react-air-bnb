@@ -29,7 +29,7 @@ function App() {
           description="Learn wedding photography"
           pricing="125"
         />
-        <Card
+        <Card 
           img={mountain}
           img_alt="Mountain Bike"
           rating="4.8"
