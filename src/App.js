@@ -15,28 +15,28 @@ function App() {
           img={swimmer}
           img_alt="Katie Zafares"
           rating="5.0"
-          rating_count="6"
+          rating_count={6}
           country="USA"
           description="Life lessons with Katie Zafares"
-          pricing="136"
+          pricing={136}
         />
         <Card
           img={wedding}
           img_alt="Wedding Bride"
           rating="5.0"
-          rating_count="30"
+          rating_count={30}
           country="USA"
           description="Learn wedding photography"
-          pricing="125"
+          pricing={125}
         />
         <Card 
           img={mountain}
           img_alt="Mountain Bike"
           rating="4.8"
-          rating_count="2"
+          rating_count={2}
           country="USA"
           description="Group Mountain Biking"
-          pricing="50"
+          pricing={50}
         />
       </div>
     </div>
