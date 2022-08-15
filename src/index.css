@@ -75,6 +75,7 @@ nav {
 .card {
   width: 100%;
   font-size: 12px;
+  position: relative;
 }
 
 .card--image {
@@ -94,4 +95,14 @@ nav {
 
 .card--rating_location_count {
   margin-right: 5px;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 40px;
+  background-color: white;
+  padding: 2px 5px;
+  border-radius: 2px;
+  font-weight: bold;
 }
